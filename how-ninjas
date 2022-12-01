@@ -1,0 +1,12 @@
+ninjas = input()
+
+if ninjas <= str(0):
+    print('Where ninjas')
+elif ninjas <= str(10) and ninjas >= str(1):
+    print('I kill her')
+elif ninjas <= str(30) and ninjas >= str(11):
+    print('it is hard')
+elif ninjas <=str(50) and ninjas >= str(31):
+    print('There are too many of them')
+else:
+    print("so more")
