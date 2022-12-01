@@ -1,0 +1,5 @@
+money = input()
+if money >= str(100) and money <= str(500):
+    print('all good')
+else:
+    print('ohh it\'s not range')
