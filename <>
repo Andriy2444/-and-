@@ -1,0 +1,7 @@
+twinkies = input()
+if twinkies < str(100):
+    print('low')
+elif twinkies > str(500):
+    print('more')
+else:
+    print('all good')
